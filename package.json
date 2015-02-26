@@ -1,0 +1,33 @@
+{
+  "name": "factual-js",
+  "version": "0.0.1",
+  "description": "An isomorphic Javascript wrapper for the Factual API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmfurlott/factual-js"
+  },
+  "keywords": [
+    "factual",
+    "api",
+    "js",
+    "javascript",
+    "isomorphic",
+    "superagent",
+    "front",
+    "react"
+  ],
+  "author": "Joseph Furlott <jmfurlott@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmfurlott/factual-js/issues"
+  },
+  "homepage": "https://github.com/jmfurlott/factual-js",
+  "devDependencies": {
+    "jest": "~0.1.37",
+    "superagent": "~0.21.0"
+  }
+}
