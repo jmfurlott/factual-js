@@ -12,6 +12,12 @@ $ npm install
 
 ## Development
 
+Require the module
+
+```
+import 'Factual' from 'factual-js';
+```
+
 ### Building
 
 When making changes to the source, you have to build the `src` folder.
