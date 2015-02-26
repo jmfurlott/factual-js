@@ -2,10 +2,13 @@
   "name": "factual-js",
   "version": "0.0.1",
   "description": "An isomorphic Javascript wrapper for the Factual API",
-  "main": "src/factualjs",
+  "main": "src/factual.js",
   "scripts": {
     "build": "babel src -d dist",
-    "test": "jest"
+    "predemo": "npm run build",
+    "demo": "browserify dist/factualDemo.js -o demo/demo.js",
+    "test": "jest",
+    "clean": "rm -rf dist" 
   },
   "repository": {
     "type": "git",
@@ -29,6 +32,7 @@
   "homepage": "https://github.com/jmfurlott/factual-js",
   "devDependencies": {
     "babel": "~4.5.5",
+    "browserify": "~9.0.3",
     "jest": "~0.1.37",
     "superagent": "~0.21.0"
   }
