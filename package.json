@@ -2,8 +2,9 @@
   "name": "factual-js",
   "version": "0.0.1",
   "description": "An isomorphic Javascript wrapper for the Factual API",
-  "main": "index.js",
+  "main": "src/factualjs",
   "scripts": {
+    "build": "babel src -d dist",
     "test": "jest"
   },
   "repository": {
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/jmfurlott/factual-js",
   "devDependencies": {
+    "babel": "~4.5.5",
     "jest": "~0.1.37",
     "superagent": "~0.21.0"
   }

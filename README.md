@@ -10,6 +10,16 @@ $ npm install
 
 ## Usage
 
+## Development
+
+### Building
+
+When making changes to the source, you have to build the `src` folder.
+
+```
+$ npm run build
+```
+
 
 ## Licence
 
